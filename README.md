@@ -1,1 +1,1 @@
-# consensys-academy
+# ConsenSysAcademy Ethereum Developer Bootcamp
