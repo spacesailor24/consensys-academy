@@ -1,3 +1,5 @@
+# Consensus Methods
+
 * Byzantine Fault Tolerance
     * Byzantine Fault - any fault (error) that presents different symptoms to different observers
     * Byzantine Failure - a loss of a system service due to a Byzantine Fault in systems that require consensus
