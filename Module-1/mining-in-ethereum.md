@@ -27,7 +27,7 @@
   - A nonce (number used only once, the is the value the miners are trying to compute)
   - The miner's reward for the block
 
-  ## Additional Resources
+## Additional Resources
 
   - [Live visualization of block formation](http://ethviewer.live/)
   - [Ethereum Wiki on Mining](https://github.com/ethereum/wiki/wiki/Mining)
