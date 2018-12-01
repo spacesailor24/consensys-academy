@@ -28,7 +28,7 @@
     - Actors in a LPOS system lease their stake to staking nodes to increase the weight of stake for that node
         - In doing so, if a node that an actor leased to is selected to validate the next block, the actor that leased to that node gets a proportional share of the block reward via the network
 - Delegate Proof-of-Stake
-    - Actors in a DPOS system used their stake to vote elect a list of nodes that are made eligible to be randomly selected to validate the next block
+    - Actors in a DPOS system used their stake to vote and elect a list of nodes that are made eligible to be randomly selected to validate the next block
     - There is no direct reward for the actors that delegate the block validator, like there is in LPOS
 - Proof-of-Importance
     - Actions in a POI system are selected as the next block validators not only based on their stake in the network, but also based on their balance, reputation (determined by a separate system), and the number of transactions made to and from their address
