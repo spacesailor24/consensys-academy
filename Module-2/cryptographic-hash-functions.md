@@ -6,7 +6,7 @@
 
 - Takes arbitrary data of arbitrary length, and will always produce a hash of the same length
 - The same input data will always produce the same hash
-- Similar input data will produce radially different hashes - appearing to be random
+- Similar, but not identical input data will produce radically different hashes - appearing to be random
 - The difference in time it takes to hash a small amount of data v.s. a much larger amount of data should be nominal
 - A hash should be one-way, meaning it should be infeasible to reverse a hash to obtain the original input - A.K.A. pre-image resistant
 - Different input data should never produce the same hash - every hash of different data should be unique A.K.A. collision resistance
@@ -15,11 +15,11 @@
 
 ### Verify Data Integrity
 
-Because the exact same input data must be given to a hash function to produce a hash, you can verify data integrity by taking any given data and comparing it to a known and trusted hash of the original data. If the given data produces a hash different from the know and trusted hash, then you know that your copy of the data does not match the original.
+Because the exact same input data must be given to a hash function to produce the same hash, you can verify data integrity by taking any given data and comparing it to a known and trusted hash of the original data. If the given data produces a hash different from the know and trusted hash, then you know that your copy of the data does not match the original.
 
 ### Proof of Work
 
-Hashes are used in Proof-of-Work based consensus methods, because the consensus protocol can generate a target value that's represented as a hash, and because a hash is a one-way function, miner's have to brute force their way to get a hash that reduces to a number below the target value. Miner's are unable to simply take the hash of the target value and reverse it to get the target value set by the network protocol.
+Hashes are used in Proof-of-Work based consensus methods, because the consensus protocol can generate a target value that's represented as a hash, and because a hash is a one-way function, miners have to brute force their way to get a hash that reduces to a number below the target value. Miners are unable to simply take the hash of the target value and reverse it to get the target value set by the network protocol.
 
 Also, brute forcing a hash takes a lot of computational power, but verifying if a hash is correct and below the target value, is computational easy.
 
