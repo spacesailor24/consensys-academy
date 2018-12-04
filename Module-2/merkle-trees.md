@@ -43,6 +43,15 @@
         - This makes _Merkle Trees_ scalable to extremely large data sets
 - Does not reveal the contents of data set (because it uses the hashes of the data contained in the set)
 
+## Merkling in Ethereum
+
+"First, the basics. A Merkle tree, in the most general sense, is a way of hashing a large number of "chunks" of data together which relies on splitting the chunks into buckets, where each bucket contains only a few chunks, then taking the hash of each bucket and repeating the same process, continuing to do so until the total number of hashes remaining becomes only one: the root hash." ~ Vitalik Buterin
+
+### Binary Merkle Tree
+
+"The most common and simple form of Merkle tree is the binary Mekle tree, where a bucket always consists of two adjacent chunks or hashes; it can be depicted as follows:"
+
+![Binary Merkle Tree](./images/binary-merkle-tree.png)
 
 ## Additional Resources
 
