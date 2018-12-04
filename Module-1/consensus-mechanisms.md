@@ -17,18 +17,18 @@
 - Proof-of-Stake
     - Actors in a POS system will receive a change to validate the next block based proportionally on the amount of stake they have in the network
         - Stake can be interpreted in multiple ways
-            - 1. In early POS systems, stake referred to the amount of token one held for the network
-            - 2. In later version of POS system, stake referrers to a security deposit one places in order to be eligible to be selected as the next block validator
+            - 1. In early POS systems, stake referred to the amount of tokens one held for the network
+            - 2. In later version of POS system, stake refers to a security deposit one places in order to be eligible to be selected as the next block validator
     - Nothing at Stake Theory
         - This theory was presented with the idea of the earlier (2nd definition of stake) POS implementation
-        - The theory represent a problem where every validator will build on every fork of the blockchain, because there is no disincentive to do so, as well as no hefty amount of computation needed like there is in a POW system
+        - The theory represents a problem where every validator will build on every fork of the blockchain, because there is no disincentive to do so, as well as no hefty amount of computation needed like there is in a POW system
         - One attack that uses this theory would be a double spending attack:
         ![Proof of Stake Attack](./images/proof-of-stake-attack.png)
 - Leased Proof-of-Stake
     - Actors in a LPOS system lease their stake to staking nodes to increase the weight of stake for that node
         - In doing so, if a node that an actor leased to is selected to validate the next block, the actor that leased to that node gets a proportional share of the block reward via the network
 - Delegate Proof-of-Stake
-    - Actors in a DPOS system used their stake to vote elect a list of nodes that are made eligible to be randomly selected to validate the next block
+    - Actors in a DPOS system used their stake to vote and elect a list of nodes that are made eligible to be randomly selected to validate the next block
     - There is no direct reward for the actors that delegate the block validator, like there is in LPOS
 - Proof-of-Importance
     - Actions in a POI system are selected as the next block validators not only based on their stake in the network, but also based on their balance, reputation (determined by a separate system), and the number of transactions made to and from their address
