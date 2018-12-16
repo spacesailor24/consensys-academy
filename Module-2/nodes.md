@@ -17,3 +17,7 @@
 3. Mining
     - Stores and shares a full copy of the blockchain and verifies transactions
     - Mine for valid blocks
+
+## Additional Resources
+
+- [What is an Ethereum Node?](https://www.reddit.com/r/ethereum/comments/4dx6km/newbie_question_what_is_ethereum_node/)
