@@ -1,0 +1,24 @@
+{
+  "name": "multisig-wallet-exercise",
+  "version": "1.0.0",
+  "description": "This walkthrough is based on [this project](./Multisig_wallet_info.md) by Nate Rush.",
+  "main": "truffle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsenSys-Academy/multisig-wallet-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConsenSys-Academy/multisig-wallet-exercise/issues"
+  },
+  "homepage": "https://github.com/ConsenSys-Academy/multisig-wallet-exercise#readme",
+  "dependencies": {
+    "solc": "0.4.25",
+    "truffle-hdwallet-provider": "^1.0.1"
+  }
+}
